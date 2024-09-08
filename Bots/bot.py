@@ -18,8 +18,8 @@ async def ping(ctx):
 
 @client.event
 async def on_member_join(member):
-    channel = client.get_channel(630492199959658526)
-    await channel.send(f"Welcome: {member.mention} please read <#630498094017937442>, also be sure to assign your self <#666011510157344861> to begin, enjoy your stay!")
+    channel = client.get_channel()
+    await channel.send(f"Welcome: {member.mention} please read , also be sure to assign your self to begin, enjoy your stay!")
     role =  discord.utils.get(member.guild.roles, name="Member")  
     await member.add_roles(role)
     print(f"{member} was given {role}")
