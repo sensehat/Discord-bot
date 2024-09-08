@@ -29,13 +29,13 @@ pip install discord.py
 
 1. **Clone the repository**:
     ```bash
-    git clone <your-repo-link>
-    cd <your-repo-folder>
+    git clone https://github.com/sensehat/Discord-bot.git
+    chmod +x bot.py
     ```
 
 2. **Configure the bot**:
     - Obtain your bot token from the [Discord Developer Portal](https://discord.com/developers/applications) and place it in the `client.run()` method at the bottom of the script.
-    - Set up the command prefix in the bot. The default prefix is `sudo `. You can change it by modifying the `command_prefix` in the following line:
+    - Set up the command prefix in the bot. The default prefix I made is  `sudo `. You can change it by modifying the `command_prefix` in the following line:
 
     ```python
     client = commands.Bot(command_prefix="sudo ")
@@ -48,7 +48,7 @@ pip install discord.py
 4. **Run the bot**:
     - Execute the bot script:
     ```bash
-    python <script_name>.py
+    python bot.py
     ```
 
 5. **Invite the bot to your server**:
@@ -72,5 +72,3 @@ pip install discord.py
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-
-Feel free to customize the `README.md` further based on any specific details or additional features you may add!
