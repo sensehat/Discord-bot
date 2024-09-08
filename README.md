@@ -1,6 +1,6 @@
 ---
 
-# Discord Automation Bot
+# 🤖 Discord Automation Bot
 
 This is a Python-based Discord bot designed to automate various tasks in a Discord server, such as welcoming new members, muting, banning, and providing help information for users.
 
@@ -25,7 +25,7 @@ Install required libraries using pip:
 pip install discord.py
 ```
 
-## Bot Setup
+## ⚙️ Bot Setup
 
 1. **Clone the repository**:
     ```bash
@@ -54,7 +54,7 @@ pip install discord.py
 5. **Invite the bot to your server**:
     - Generate an OAuth2 URL from the Discord Developer Portal and invite your bot to your Discord server.
 
-## Commands
+## 🛠️ Commands
 
 | Command               | Description                                   | Permission Required   |
 |-----------------------|-----------------------------------------------|-----------------------|
@@ -67,7 +67,7 @@ pip install discord.py
 | `sudo ban <@member>`  | Bans a member from the server                 | Administrator         |
 | `sudo warn <@member> [reason]` | Warns a member with an optional reason | Administrator         |
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
